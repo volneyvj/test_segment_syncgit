@@ -1,0 +1,14 @@
+import {
+  to = segment_destination_subscription.id-6617a464846d18e69aa7dc4f_ftijqNWtrrZagfKbfQoqAH
+  id = "6617a464846d18e69aa7dc4f:ftijqNWtrrZagfKbfQoqAH"
+}
+
+resource "segment_destination_subscription" "id-6617a464846d18e69aa7dc4f_ftijqNWtrrZagfKbfQoqAH" {
+  action_id      = "dT7LTFwsJcsPBk5xgQwuPr"
+  destination_id = "6617a464846d18e69aa7dc4f"
+  enabled        = true
+  model_id       = null
+  name           = "test with all incluiding unsubcribed"
+  settings       = "{\"apiLookups\":[],\"bcc\":\"[]\",\"bodyType\":\"html\",\"bodyUrl\":\"https://messaging-cdn-app.segment.com/d768d00171f217b9ff9bd787d6a5207dffcc5d1ba3673412ea5ffa167309f480/1c021c3e355861e96bd52043beb7418f3da7add6d39f9a82e7f8fac08c6e3724/ssd_2ewpGc69haRHpjnPIw4YOqzzjjT/email-6617a464846d18e69aa7dc4f/body-b32a03c830adb870b6c0df5f24e6e77f.html\",\"byPassSubscription\":true,\"customArgs\":{\"__segment_internal_api_url__\":\"https://api.segment.io\",\"__segment_internal_audience_id__\":\"ssd_2ewpGc69haRHpjnPIw4YOqzzjjT\",\"__segment_internal_correlation_id__\":\"ssd_2ewpGc69haRHpjnPIw4YOqzzjjT\",\"__segment_internal_engage_signature__\":\"945a547e2ab44c2388854e66e686808985bd91a6347ed4d83e818e3a157ea920\",\"__segment_internal_workspace_id__\":\"xdYo34GQKyPRVSp4Ns1ArK\",\"__segment_internal_write_key__\":null,\"audience_id\":\"ssd_2ewpGc69haRHpjnPIw4YOqzzjjT\",\"campaign_key\":\"test_with_all_incluiding_unsubcribed\",\"campaign_name\":\"test with all incluiding unsubcribed\",\"correlation_id\":\"ssd_2ewpGc69haRHpjnPIw4YOqzzjjT\",\"user_id\":{\"@path\":\"$.userId\"},\"workspace_id\":\"xdYo34GQKyPRVSp4Ns1ArK\",\"write_key\":null},\"eventOccurredTS\":{\"@path\":\"$.timestamp\"},\"externalIds\":{\"@arrayPath\":[\"$.external_ids\",{\"groups\":{\"@path\":\"$.groups\"},\"id\":{\"@path\":\"$.id\"},\"preferencesLink\":{\"@path\":\"$.preferencesLink\"},\"subscriptionStatus\":{\"@path\":\"$.isSubscribed\"},\"type\":{\"@path\":\"$.type\"},\"unsubscribeLink\":{\"@path\":\"$.unsubscribeLink\"}}]},\"fromDomain\":\"segmentdemos.com\",\"fromEmail\":\"test_vj@segmentdemos.com\",\"fromName\":\"test_sender@hello.com\",\"groupId\":\"\",\"ipPool\":\"\",\"previewText\":\"this is a normal test 12345\",\"replyToEmail\":\"test_vj@segmentdemos.com\",\"replyToEqualsFrom\":false,\"replyToName\":\"test_sender@hello.com\",\"segmentComputationId\":{\"@path\":\"$.context.personas.computation_id\"},\"send\":true,\"sendBasedOnOptOut\":false,\"subject\":\"just a test 999\",\"traitEnrichment\":true,\"traits\":{\"@path\":\"$.properties\"},\"userId\":{\"@path\":\"$.userId\"}}"
+  trigger        = "type = \"track\" and event = \"Audience Entered\" and context.personas.computation_id = \"ssd_2ewpGc69haRHpjnPIw4YOqzzjjT\""
+}
