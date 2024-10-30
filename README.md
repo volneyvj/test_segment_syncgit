@@ -1,1 +1,0 @@
-# test_segment_syncgit
