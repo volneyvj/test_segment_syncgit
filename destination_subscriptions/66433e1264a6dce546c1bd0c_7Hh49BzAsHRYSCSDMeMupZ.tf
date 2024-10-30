@@ -1,0 +1,14 @@
+import {
+  to = segment_destination_subscription.id-66433e1264a6dce546c1bd0c_7Hh49BzAsHRYSCSDMeMupZ
+  id = "66433e1264a6dce546c1bd0c:7Hh49BzAsHRYSCSDMeMupZ"
+}
+
+resource "segment_destination_subscription" "id-66433e1264a6dce546c1bd0c_7Hh49BzAsHRYSCSDMeMupZ" {
+  action_id      = "dT7LTFwsJcsPBk5xgQwuPr"
+  destination_id = "66433e1264a6dce546c1bd0c"
+  enabled        = true
+  model_id       = null
+  name           = "Test ROsh Email Send"
+  settings       = "{\"apiLookups\":[],\"bcc\":\"[]\",\"bodyType\":\"html\",\"bodyUrl\":\"https://messaging-cdn-app.segment.com/d768d00171f217b9ff9bd787d6a5207dffcc5d1ba3673412ea5ffa167309f480/1c021c3e355861e96bd52043beb7418f3da7add6d39f9a82e7f8fac08c6e3724/jou_2gSEy55WXAwn0WS7CiKBIxhI7qc/email-66433e1264a6dce546c1bd0c/body-5576f4d25ff831bd68d19da5554dd221.html\",\"byPassSubscription\":false,\"customArgs\":{\"__segment_internal_api_url__\":\"https://api.segment.io\",\"__segment_internal_audience_id__\":\"aud_2gSEyMCseJYHBeMb9kE5fKDqxx5\",\"__segment_internal_correlation_id__\":\"jou_2gSEy55WXAwn0WS7CiKBIxhI7qc__email_yz7bb\",\"__segment_internal_engage_signature__\":\"bd19deb0980157856b2fdb525599d57324aee4e79045a7990c490b7801ad21ed\",\"__segment_internal_journey_id__\":\"jou_2gSEy55WXAwn0WS7CiKBIxhI7qc\",\"__segment_internal_journey_state_id__\":\"email_yz7bb\",\"__segment_internal_workspace_id__\":\"xdYo34GQKyPRVSp4Ns1ArK\",\"__segment_internal_write_key__\":\"p3ggbhMlJgyNfCUX9xFJFGBw2HB2qa04\",\"audience_id\":\"aud_2gSEyMCseJYHBeMb9kE5fKDqxx5\",\"campaign_key\":\"j_o_test_r_osh\",\"campaign_name\":\"Test ROsh\",\"correlation_id\":\"jou_2gSEy55WXAwn0WS7CiKBIxhI7qc__email_yz7bb\",\"journey_name\":\"Test ROsh\",\"step_name\":\"Email Send\",\"user_id\":{\"@path\":\"$.userId\"},\"workspace_id\":\"xdYo34GQKyPRVSp4Ns1ArK\",\"write_key\":\"p3ggbhMlJgyNfCUX9xFJFGBw2HB2qa04\"},\"eventOccurredTS\":{\"@path\":\"$.timestamp\"},\"externalIds\":{\"@arrayPath\":[\"$.external_ids\",{\"groups\":{\"@path\":\"$.groups\"},\"id\":{\"@path\":\"$.id\"},\"preferencesLink\":{\"@path\":\"$.preferencesLink\"},\"subscriptionStatus\":{\"@path\":\"$.isSubscribed\"},\"type\":{\"@path\":\"$.type\"},\"unsubscribeLink\":{\"@path\":\"$.unsubscribeLink\"}}]},\"fromDomain\":\"segmentdemos.com\",\"fromEmail\":\"testvolney@segmentdemos.com\",\"fromName\":\"Test Volney hh\",\"groupId\":\"\",\"ipPool\":\"\",\"previewText\":\"\",\"replyToEmail\":\"roshni.chandran@segment.com\",\"replyToEqualsFrom\":false,\"replyToName\":\"Rosh Test\",\"segmentComputationId\":{\"@path\":\"$.context.personas.computation_id\"},\"send\":true,\"sendBasedOnOptOut\":false,\"subject\":\"2nd test for headderr\",\"traitEnrichment\":true,\"traits\":{\"@path\":\"$.properties\"},\"userId\":{\"@path\":\"$.userId\"}}"
+  trigger        = "type = \"track\" and event = \"Audience Entered\" and context.personas.computation_id = \"aud_2gSEyMCseJYHBeMb9kE5fKDqxx5\""
+}
